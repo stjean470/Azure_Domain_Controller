@@ -9,7 +9,9 @@ Setup Domain Controller in Azure
 Create a Resource Group
 
  Home-> Resource Group, click on the create button and it will take you to a screen like this:
- ![azure_image_1.png](azure_lab_images/azure_image_1.png)
+ <img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/92fd263c-378e-417c-ae97-23b15fc78e8c" />
+
+ 
 
 Put any credentials you want. Then press Review + Create
 
