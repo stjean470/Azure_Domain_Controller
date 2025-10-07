@@ -2,11 +2,11 @@
 
 This lab guides you through setting up a **Domain Controller (DC)** and a **Client VM** in Microsoft Azure. You’ll create a resource group, virtual network, and virtual machines, then configure IP and DNS settings for domain communication.
 
-Setup Domain Controller in Azure
+# Setup Domain Controller in Azure
 
 —
 
-Create a Resource Group
+## Create a Resource Group
 
  Home-> Resource Group, click on the create button and it will take you to a screen like this:
  <img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/92fd263c-378e-417c-ae97-23b15fc78e8c" />
@@ -20,18 +20,18 @@ Put any credentials you want. Then press Review + Create
 Create a Virtual Network and Subnet
 
 Home-> Virtual Networks -> Create. Screen should look like this:
+<img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9f3f6628-68b9-4836-9cd7-1e1263ea57dc" />
+
 
 
 
 Make your you have this Vnet for a resource group you just created. Put a name and press Review + Create. We don’t need worry anything else. We will have the default settings for this network including the subnet
 
-Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+# Create the Domain Controller VM (Windows Server 2022) named “DC-1”
 
-Go to Home Portal -> Virtual Machines -> Create -> Virtual machines. Screen should look like this.
+Go to Home Portal -> Virtual Machines -> Create -> Virtual machines. Screen should look like this.Make sure the VM version you choose is Windows Server 2022
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/70c4830c-0cf8-4310-880f-671cce23f71e" />
 
-
-
-Make sure the VM version you choose is Windows Server 2022
 
 
 
