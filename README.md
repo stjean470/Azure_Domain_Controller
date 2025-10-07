@@ -45,17 +45,22 @@ Click Next: Disk -> Next: Networking. Then choose the Vnet you just created. The
 
 After VM is created, set Domain Controller’s NIC Private IP address to be static
 
-(Note)-The reason why we are changing the private IP to be static is because later one we will have client1 to point to dc-1 private IP. We do this so dc-1’s private IP does not change each time the server is restarted or stopped. The server client1 will use dc-1’s private IP for DNS. 
+-(Note)-The reason why we are changing the private IP to be static is because later one we will have client1 to point to dc-1 private IP. We do this so dc-1’s private IP does not change each time the server is restarted or stopped. The server client1 will use dc-1’s private IP for DNS. 
 
-Go to Home-> Virtual machines and click on dc-1. Go to Network -> Network Settings. There should be a network  interface / IP configuration icon. This is the network identification card. This is what your screen should look like.
+-Go to Home-> Virtual machines and click on dc-1. Go to Network -> Network Settings. There should be a network  interface / IP configuration icon. This is the network identification card. This is what your screen should look like.
 
-Click on the  network identification card. It should take you this screen:
+-Click on the  network identification card. It should take you this screen:
+-<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/63dc9559-1e70-4365-b82c-b501f494fd38" />
 
 
 
-Click on Settings -> IP Configurations and take a note on the Private IP Address. Its Dynamic for the moment, but we are going to change it to static.
 
-Click on ipconfig1. Change the setting to Static. 
+-Click on Settings -> IP Configurations and take a note on the Private IP Address. Its Dynamic for the moment, but we are going to change it to static.
+-<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/d8fbf32a-cd08-4be6-be65-e19fb4483382" />
+
+
+-Click on ipconfig1. Change the setting to Static. 
+-<img width="1920" height="1080" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/07ff07cc-6a8f-46f8-bac4-9f0cdbc0f197" />
 
 
 
